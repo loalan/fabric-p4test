@@ -4,7 +4,7 @@ FABRIC_OUT = ${BASE_P4C_OUT_PATH}/fabric/bmv2/default
 FABRIC_SPGW_OUT = ${BASE_P4C_OUT_PATH}/fabric-spgw/bmv2/default
 FABRIC_INT_OUT = ${BASE_P4C_OUT_PATH}/fabric-int/bmv2/default
 
-all: fabric fabric-spgw
+all: fabric fabric-spgw fabric-int
 
 fabric:
 ifndef TEST
